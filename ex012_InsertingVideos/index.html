@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putting Videos in HTML5</title>
+</head>
+<body>
+    <h1>Inserting videos Locally</h1>
+    <p>This video is in my own server</p>
+
+    <!--<video src="midia/VideoTest.mp4" width="500" controls></video>-->
+
+    <video width="500" poster="images/English.jpg" controls>
+        <source src="midia/VideoTest.mp4" type="video/mp4">
+        <p>Unfortunately this video could not be displayed in your browser, but <a href="midia/VideoTest.mp4">click here</a> to download this video</p>
+    </video>
+
+    <!--Width is useful to determine the dimensions-->
+    <!--Use "poster" (line 15) to insert a thumb in your video-->
+    <!--Important to mention that this way can generate high costs for the client-->
+    
+</body>
+</html>
